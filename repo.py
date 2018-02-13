@@ -203,10 +203,12 @@ def TEU2Cnt(p_eqp_typ):
     elif p_eqp_typ == 'FA' : return 1
     else: return 1
   
+    
+    
 print(os.getcwd())
-
-from_date = 201735 # Sep, Oct, Nov
-to_date = 201748
+# week range changed to 12 months
+from_date = 201701 # Sep, Oct, Nov
+to_date = 201752
 
 working_dir = r"C:\BI\python_scripts\repo_guideline"
 os.chdir(working_dir)
